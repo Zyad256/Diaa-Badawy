@@ -53,7 +53,7 @@ function ProjectCard({
       </div>
       <div className="p-6 grid lg:grid-cols-2 gap-6">
         <div className="space-y-4">{children}</div>
-        <div className="space-y-4">{diagram}</div>
+        <div className="space-y-4 order-first lg:order-none">{diagram}</div>
       </div>
     </motion.article>
   );

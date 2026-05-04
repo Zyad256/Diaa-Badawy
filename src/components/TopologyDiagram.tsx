@@ -22,7 +22,7 @@ export function TopologyDiagram({
           backgroundSize: "20px 20px",
         }}
       />
-      <svg viewBox="0 0 400 240" className="relative w-full" style={{ height }}>
+      <svg viewBox="0 0 400 240" className="relative w-full h-auto">
         {edges.map((e, i) => {
           const a = map[e.from], b = map[e.to];
           if (!a || !b) return null;
