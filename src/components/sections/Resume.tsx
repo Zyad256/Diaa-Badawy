@@ -2,9 +2,9 @@ import { SectionHeading } from "@/components/SectionHeading";
 import { motion } from "framer-motion";
 
 const items = [
-  { y: "2024 — Present", t: "Self-directed Network Labs", d: "Building Cisco Packet Tracer + AWS labs covering OSPF, ACLs, VLAN trunking, VPC design." },
-  { y: "2023 — 2024", t: "B.Sc. Computer Science", d: "Graduated with focus on networks, operating systems, and distributed systems." },
-  { y: "Targeting", t: "CCNA — in progress", d: "Preparing for Cisco Certified Network Associate certification." },
+  { y: "10/2025 — 04/2026", t: "Network Infrastructure Trainee", d: "NTI Internship (CCNA v7). Configured VLANs, DHCP, NAT, ACLs, and OSPF." },
+  { y: "2025 — 2026", t: "AWS Cloud Services Trainee", d: "AWS Academy Internship. Hands-on labs with EC2, S3, VPC, RDS, and IAM." },
+  { y: "09/2022 — 06/2026", t: "B.Sc. Computer Science", d: "Menofia University, Faculty of Computer Science." },
 ];
 
 export function Resume() {

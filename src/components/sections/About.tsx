@@ -22,21 +22,13 @@ export function About() {
             className="lg:col-span-2 space-y-4 text-muted-foreground leading-relaxed"
           >
             <p>
-              I'm a <span className="text-foreground">Computer Science graduate</span> with a strong
-              focus on networking and infrastructure. My hands-on experience covers{" "}
-              <span className="text-primary font-mono">routing, switching, ACLs, OSPF, VLANs,
-              DHCP, and NAT</span>, plus <span className="text-primary font-mono">AWS cloud fundamentals</span>.
+              I am a <span className="text-foreground">Computer Science Graduate and Network Infrastructure trainee</span> with hands-on experience in IP networking, routing, switching, and network troubleshooting.
             </p>
             <p>
-              I love troubleshooting — methodically working down the OSI stack, capturing packets in
-              Wireshark, and isolating the exact misconfiguration that's silently dropping traffic.
-              I design networks that are <span className="text-foreground">secure, scalable, and
-              actually maintainable</span>.
+              Experienced in designing and simulating network solutions using Cisco tools, with knowledge of <span className="text-primary font-mono">cloud fundamentals and system operations</span>.
             </p>
             <p>
-              Currently looking for a <span className="text-foreground">System / Network
-              Engineering internship</span> where I can learn from senior engineers and contribute
-              to real production infrastructure.
+              With a strong interest in communication systems and emerging technologies, I am seeking a <span className="text-foreground">System/Network Engineering Internship</span> to contribute to mission-critical solutions and technical support environments.
             </p>
           </motion.div>
           <div className="grid grid-cols-2 lg:grid-cols-1 gap-3">

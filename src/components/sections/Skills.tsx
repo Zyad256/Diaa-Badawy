@@ -3,16 +3,16 @@ import { SectionHeading } from "@/components/SectionHeading";
 
 const groups = [
   {
-    title: "Networking",
-    items: ["Routing & Switching", "IP Addressing & Subnetting", "Network Troubleshooting", "Network Security Basics", "VLANs / DHCP / NAT", "ACL Configuration"],
+    title: "Networking & Security",
+    items: ["Routing & Switching", "VLANs & NAT", "TCP/IP & OSI Model", "Network Security (ACLs)"],
   },
   {
-    title: "Protocols",
-    items: ["OSPF", "TCP/IP", "ICMP", "ARP", "HTTP/HTTPS", "DNS"],
+    title: "Cloud & Virtualization",
+    items: ["AWS Cloud Fundamentals", "Core Services (VPC, EC2, S3)", "Cloud Architecture & IAM", "Virtualization Concepts"],
   },
   {
-    title: "Tools & Cloud",
-    items: ["Cisco Packet Tracer", "Wireshark", "AWS EC2", "AWS S3", "AWS VPC", "AWS IAM"],
+    title: "Soft Skills",
+    items: ["Problem Solving", "Critical Thinking", "Adaptability", "Team Collaboration"],
   },
 ];
 
