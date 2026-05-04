@@ -8,7 +8,7 @@ export function Contact() {
     <section id="contact" className="py-20 px-6">
       <div className="max-w-6xl mx-auto">
         <SectionHeading
-          index="06 / contact"
+          index="07 / contact"
           title="Let's talk networks"
           subtitle="Open to internships, junior roles and collaboration on lab projects."
         />

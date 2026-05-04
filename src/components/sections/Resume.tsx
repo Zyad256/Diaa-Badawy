@@ -11,7 +11,7 @@ export function Resume() {
   return (
     <section id="resume" className="py-20 px-6">
       <div className="max-w-6xl mx-auto">
-        <SectionHeading index="05 / resume" title="Resume" subtitle="Quick snapshot — full PDF available below." />
+        <SectionHeading index="06 / resume" title="Resume" subtitle="Quick snapshot — full PDF available below." />
         <div className="grid lg:grid-cols-3 gap-8">
           <div className="lg:col-span-2 space-y-4">
             {items.map((it, i) => (
