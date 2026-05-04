@@ -40,7 +40,7 @@ export function Resume() {
             <h3 className="font-semibold">Full CV</h3>
             <p className="text-xs text-muted-foreground mt-1 mb-4">PDF · 1 page · ATS-friendly</p>
             <a
-              href="/cv-diaa-badawy.pdf"
+              href="https://drive.google.com/file/d/1YIXRvEAHCgOBvyU4G426TvMxggb7pvG0/view"
               download
               className="px-4 py-2 rounded-md bg-primary text-primary-foreground font-medium text-sm hover:opacity-90 transition w-full"
             >

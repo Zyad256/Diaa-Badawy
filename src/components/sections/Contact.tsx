@@ -15,13 +15,13 @@ export function Contact() {
         <div className="grid lg:grid-cols-2 gap-8">
           <div className="space-y-3">
             <a
-              href="mailto:diaa.badawy@example.com"
+              href="mailto:diaabadawy501@gmail.com"
               className="flex items-center gap-4 p-4 rounded-lg border border-border bg-card/60 hover:border-primary/50 transition"
             >
               <div className="w-10 h-10 rounded-md bg-primary/10 text-primary flex items-center justify-center font-mono">@</div>
               <div>
                 <div className="font-mono text-[10px] text-muted-foreground uppercase tracking-wider">Email</div>
-                <div className="text-sm">diaa.badawy@example.com</div>
+                <div className="text-sm">diaabadawy501@gmail.com</div>
               </div>
             </a>
             <a

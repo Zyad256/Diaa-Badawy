@@ -30,7 +30,7 @@ export function Hero() {
             <a href="#projects" className="px-5 py-2.5 rounded-md bg-primary text-primary-foreground font-medium hover:opacity-90 transition shadow-lg shadow-primary/20">
               View Projects
             </a>
-            <a href="/cv-diaa-badawy.pdf" download className="px-5 py-2.5 rounded-md border border-primary/40 text-primary hover:bg-primary/10 transition font-medium">
+            <a href="https://drive.google.com/file/d/1YIXRvEAHCgOBvyU4G426TvMxggb7pvG0/view" download className="px-5 py-2.5 rounded-md border border-primary/40 text-primary hover:bg-primary/10 transition font-medium">
               Download CV
             </a>
             <a href="#contact" className="px-5 py-2.5 rounded-md border border-border hover:border-foreground/40 transition font-medium">

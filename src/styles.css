@@ -1,5 +1,4 @@
-@import "tailwindcss" source(none);
-@source "../src";
+@import "tailwindcss";
 @import "tw-animate-css";
 
 @custom-variant dark (&:is(.dark *));
@@ -37,6 +36,7 @@
 }
 
 :root {
+  color-scheme: dark;
   --radius: 0.625rem;
   /* Dark by default — engineer dashboard feel */
   --background: oklch(0.18 0.025 240);
