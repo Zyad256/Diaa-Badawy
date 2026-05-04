@@ -38,7 +38,7 @@ export function Resume() {
               <span className="mt-2">CV.pdf</span>
             </div>
             <h3 className="font-semibold">Full CV</h3>
-            <p className="text-xs text-muted-foreground mt-1 mb-4">PDF · 1 page · ATS-friendly</p>
+            <p className="text-xs text-muted-foreground mt-1 mb-4">PDF · 2 page · ATS-friendly</p>
             <a
               href="https://drive.google.com/file/d/1YIXRvEAHCgOBvyU4G426TvMxggb7pvG0/view"
               download
