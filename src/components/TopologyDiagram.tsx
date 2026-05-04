@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 interface Node { id: string; x: number; y: number; label: string; type?: "router" | "switch" | "host" | "cloud"; }
 interface Edge { from: string; to: string; label?: string; dashed?: boolean; }
 
@@ -24,14 +26,37 @@ export function TopologyDiagram({
         {edges.map((e, i) => {
           const a = map[e.from], b = map[e.to];
           if (!a || !b) return null;
+          
+          // Generate deterministic speeds/delays based on index
+          const duration = 1.5 + (i % 3) * 0.4;
+          const delay = (i * 0.3) % 1.5;
+
           return (
             <g key={i}>
               <line
                 x1={a.x} y1={a.y} x2={b.x} y2={b.y}
                 stroke="oklch(0.78 0.15 200)" strokeWidth="1.5"
                 strokeDasharray={e.dashed ? "4 4" : undefined}
-                opacity="0.7"
+                opacity="0.4"
               />
+              
+              {/* Animated Packet */}
+              <motion.circle
+                r="2.5"
+                fill="oklch(0.96 0.01 220)"
+                initial={{ cx: a.x, cy: a.y, opacity: 0 }}
+                animate={{ cx: [a.x, b.x], cy: [a.y, b.y], opacity: [0, 1, 1, 0] }}
+                transition={{
+                  duration,
+                  delay,
+                  repeat: Infinity,
+                  repeatType: "loop",
+                  ease: "linear",
+                  times: [0, 0.1, 0.9, 1] // Fade in and out at ends
+                }}
+                style={{ filter: "drop-shadow(0 0 4px oklch(0.78 0.15 200))" }}
+              />
+
               {e.label && (
                 <text
                   x={(a.x + b.x) / 2} y={(a.y + b.y) / 2 - 6}
