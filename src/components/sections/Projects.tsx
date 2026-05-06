@@ -36,7 +36,7 @@ function ProjectCard({
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "-50px" }}
       transition={{ duration: 0.5 }}
-      className="rounded-2xl border border-border bg-card/50 overflow-hidden"
+      className="rounded-2xl border border-border bg-card/50 overflow-hidden group hover:-translate-y-1 hover:border-primary/50 transition-all card-glow"
     >
       <div className="p-6 border-b border-border flex flex-wrap items-center gap-3 justify-between">
         <div>

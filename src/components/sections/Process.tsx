@@ -26,13 +26,15 @@ export function Process() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.4, delay: i * 0.05 }}
-              className="pl-8 relative"
+              className="pl-8 relative group"
             >
-              <span className="absolute -left-[14px] top-1 w-7 h-7 rounded-full bg-background border-2 border-primary flex items-center justify-center font-mono text-[10px] text-primary">
+              <span className="absolute -left-[14px] top-1 w-7 h-7 rounded-full bg-background border-2 border-primary flex items-center justify-center font-mono text-[10px] text-primary group-hover:bg-primary/10 group-hover:scale-110 group-hover:glow-pulse transition-all">
                 {s.n}
               </span>
-              <h3 className="font-semibold">{s.t}</h3>
-              <p className="text-sm text-muted-foreground mt-1">{s.d}</p>
+              <div className="rounded-lg border border-transparent group-hover:border-primary/20 group-hover:bg-primary/5 p-3 -mx-3 -mt-3 transition-colors">
+                <h3 className="font-semibold">{s.t}</h3>
+                <p className="text-sm text-muted-foreground mt-1 group-hover:text-foreground/80 transition-colors">{s.d}</p>
+              </div>
             </motion.li>
           ))}
         </ol>
