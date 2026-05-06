@@ -3,8 +3,14 @@ import { Terminal, Prompt } from "@/components/Terminal";
 
 export function Hero() {
   return (
-    <section id="home" className="relative pt-32 pb-20 px-6 overflow-hidden">
+    <section id="home" className="relative pt-32 pb-20 px-6 overflow-hidden sweep-line">
       <div className="absolute inset-0 bg-grid-fade pointer-events-none" />
+      {/* Floating particles */}
+      <div className="absolute inset-0 pointer-events-none overflow-hidden">
+        {[...Array(6)].map((_, i) => (
+          <div key={i} className="absolute rounded-full bg-primary/30" style={{ width: 3, height: 3, left: `${15 + i * 15}%`, bottom: 0, animation: `float-up ${8 + i * 2}s linear ${i * 1.5}s infinite` }} />
+        ))}
+      </div>
       <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-12 items-center relative">
         <motion.div
           initial={{ opacity: 0, y: 24 }}
