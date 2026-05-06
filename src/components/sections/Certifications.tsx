@@ -4,7 +4,25 @@ import { SectionHeading } from "@/components/SectionHeading";
 export function Certifications() {
   const certs = [
     {
-      id: "ccna",
+      id: "ccna-1",
+      title: "CCNA: Introduction to Networks",
+      status: "Completed",
+      issuer: "Cisco",
+      date: "2026",
+      image: "/Certificates/ccnaIntroductionToNetworks.png",
+      progress: 100,
+    },
+    {
+      id: "ccna-2",
+      title: "CCNA: Switching, Routing, and Wireless Essentials",
+      status: "Completed",
+      issuer: "Cisco",
+      date: "2026",
+      image: "/Certificates/ccnaSwitchingRoutingWireless.png",
+      progress: 100,
+    },
+    {
+      id: "ccna-cloud",
       title: "Cloud Services Management",
       status: "Completed",
       issuer: "NTI",
@@ -31,30 +49,12 @@ export function Certifications() {
       progress: 100,
     },
     {
-      id: "ccna-1",
-      title: "CCNA: Introduction to Networks",
-      status: "Completed",
-      issuer: "Cisco",
-      date: "2026",
-      image: "/Certificates/ccnaIntroductionToNetworks.png",
-      progress: 100,
-    },
-    {
-      id: "ccna-2",
-      title: "CCNA: Switching, Routing, and Wireless Essentials",
-      status: "Completed",
-      issuer: "Cisco",
-      date: "2026",
-      image: "/Certificates/ccnaSwitchingRoutingWireless.png",
-      progress: 100,
-    },
-    {
       id: "ccna-3",
       title: "CCNA: Enterprise Networking, Security, and Automation",
       status: "In Progress",
       issuer: "Cisco",
-      date: "Expected 2026",
-      progress: 50,
+      date: "Expected May 2026",
+      progress: 95,
     },
   ];
 
