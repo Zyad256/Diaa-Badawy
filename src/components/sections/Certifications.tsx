@@ -30,6 +30,24 @@ export function Certifications() {
       image: "/Certificates/3.png",
       progress: 100,
     },
+    {
+      id: "ccna-1",
+      title: "CCNA: Introduction to Networks",
+      status: "In Progress",
+      issuer: "Cisco",
+      date: "2026",
+      image: "/Certificates/ccnaIntroductionToNetworks.png",
+      progress: 100,
+    },
+    {
+      id: "ccna-2",
+      title: "CCNA: Switching, Routing, and Wireless Essentials",
+      status: "In Progress",
+      issuer: "Cisco",
+      date: "2026",
+      image: "/Certificates/ccnaSwitchingRoutingWireless.png",
+      progress: 50,
+    },
   ];
 
   return (
