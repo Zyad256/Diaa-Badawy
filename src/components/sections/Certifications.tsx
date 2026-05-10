@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { SectionHeading } from "@/components/SectionHeading";
+import { image } from "framer-motion/client";
 
 export function Certifications() {
   const certs = [
@@ -19,6 +20,15 @@ export function Certifications() {
       issuer: "Cisco",
       date: "2026",
       image: "/Certificates/ccnaSwitchingRoutingWireless.png",
+      progress: 100,
+    },
+    {
+      id: "ccna-3",
+      title: "CCNA: Enterprise Networking, Security, and Automation",
+      status: "Completed",
+      issuer: "Cisco",
+      date: "2026",
+      image: "/Certificates/ccnaEnterprise.jpeg",
       progress: 100,
     },
     {
@@ -47,14 +57,6 @@ export function Certifications() {
       date: "2023",
       image: "/Certificates/3.png",
       progress: 100,
-    },
-    {
-      id: "ccna-3",
-      title: "CCNA: Enterprise Networking, Security, and Automation",
-      status: "In Progress",
-      issuer: "Cisco",
-      date: "Expected May 2026",
-      progress: 95,
     },
   ];
 
