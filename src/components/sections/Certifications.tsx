@@ -58,6 +58,15 @@ export function Certifications() {
       image: "/Certificates/3.png",
       progress: 100,
     },
+    {
+      id: "dept-leader",
+      title: "Department Leader - Appreciation Certificate",
+      status: "Completed",
+      issuer: "Faculty / Department",
+      date: "2026",
+      image: "/Certificates/diaaDepartmentLeader.png",
+      progress: 100,
+    },
   ];
 
   return (
